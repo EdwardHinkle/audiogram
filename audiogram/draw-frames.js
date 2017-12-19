@@ -88,9 +88,9 @@ function drawFrames(renderer, options, cb) {
       });
       stream.pipe(out);
       out.on('finish', function(){
-        if (options.tick) {
+        /*if (options.tick) {
           options.tick();
-        }
+        } */
         canvases.push(canvas);
         return frameCallback(null);
       });
