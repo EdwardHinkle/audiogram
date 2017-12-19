@@ -69,9 +69,6 @@ function _selection(_) {
   return arguments.length ? (selection = _) : selection;
 }
 
-bbcDog = new Image();
-bbcDog.src = "/images/bbc.png";
-
 minimap.onBrush(function(extent){
 
   var duration = audio.duration();
@@ -142,9 +139,6 @@ function redraw() {
   theme.orientation = (theme.width==theme.height) ? "square" : (theme.width>theme.height) ? "landscape" : "portrait";
 
   var renderer = getRenderer(theme);
-
-  // BBC watermark
-  renderer.bbcDog(bbcDog || null);
 
   // Render images
   renderer.foregroundImage(img.foreground ? img.foreground : theme.foregroundImageFile ? theme.foregroundImageFile[theme.orientation] : null);

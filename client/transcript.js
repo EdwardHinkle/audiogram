@@ -1,5 +1,4 @@
 var jQuery = require("jquery"),
-    logger = require("./slack.js"),
     ReactDOM = require('react-dom'),
     React = require('react'),
     TranscriptEditor = require('transcript-editor').default,

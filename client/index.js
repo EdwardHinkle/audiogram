@@ -1,7 +1,6 @@
 var d3 = require("d3"),
     $ = require("jquery"),
     transcript = require("./transcript.js"),
-    logger = require("./slack.js"),
     preview = require("./preview.js"),
     minimap = require("./minimap.js"),
     video = require("./video.js"),
@@ -17,13 +16,15 @@ var themesRaw,
 
 // Load user details
 global.USER = {"name":"Unknown","email":null};
+/*
 jQuery.getJSON( "/whoami", function( data ) {
   if (data.email) {
     USER.name = data.name;
     USER.email = data.email;
   }
-  logger.info(USER.name + " logged in.\n`" + navigator.userAgent + "`");
+  //logger.info(USER.name + " logged in.\n`" + navigator.userAgent + "`");
 });
+*/
 
 d3.json("/settings/themes.json", function(err, themes){
 
@@ -43,7 +44,7 @@ d3.json("/settings/themes.json", function(err, themes){
     d3.select("#loading-bars").remove();
     d3.select("#loading-message").html(errorMessage);
     if (err) {
-      logger.error(errorMessage,err);
+      //logger.error(errorMessage,err);
       throw err;
     }
     return;
@@ -174,7 +175,7 @@ function submitted() {
       fields.push({'title': 'User', 'value': "<http://ad-lookup.bs.bbc.co.uk/adlookup.php?q=" + USER.email + "|" + USER.name + ">", 'short': true});
       fields.push({'title': 'Theme', 'value': info.theme, 'short': true});
       fields.push({'title': 'Duration', 'value': info.duration, 'short': true});
-      logger.info(null, fields, USER.name + " started generating a new audiogram");
+      // logger.info(null, fields, USER.name + " started generating a new audiogram");
 		},
     error: error
 
@@ -235,7 +236,7 @@ function poll(id) {
         if (result && result.status && result.status === "ready" && result.url) {
           video.update(result.url, preview.theme());
           setClass("rendered");
-          logger.success(result);
+          // logger.success(result);
         } else if (result.status === "error") {
           console.log("RLW status error");
           error(result.error);
@@ -263,7 +264,7 @@ function error(err) {
   if (!error.message) {
     error.message = "Unknown error";
   }
-  logger.error(error.message, error, USER);
+  // logger.error(error.message, error, USER);
   d3.select("#loading-message").text("Loading...");
   setClass("error", error.message, false);
 
@@ -596,7 +597,7 @@ function themeSave() {
           console.log(data);
           setClass("success","The theme '" + newName + "' has been saved, and will be available next time you use Audiogram.");
           var msg = themes[newName] ? USER.name + " updated the theme '" + newName + "'" : USER.name + " added a new theme: '" + newName + "'";
-          logger.info(msg);
+          // logger.info(msg);
         },
         error: error
       });
@@ -657,7 +658,7 @@ function webCapSet() {
     if (xhr.status==200) {
       updateImage(null, "foreground", xhr.response);
       setClass(null);
-      logger.info(USER.name + " imported a foreground image from Web:Cap (" + filename + ")");
+      // logger.info(USER.name + " imported a foreground image from Web:Cap (" + filename + ")");
     } else {
       setClass("error","There was an error (" + xhr.status + ") fetching image '" + filename + "' form Web:Cap.");
     }
@@ -681,7 +682,7 @@ function imagePid() {
       if (xhr.status==200) {
         updateImage(null, "background", xhr.response);
         setClass(null);
-        logger.info(USER.name + " imported an image pid from iChef (" + pid + ")");
+        // logger.info(USER.name + " imported an image pid from iChef (" + pid + ")");
       } else {
         setClass("error","There was an error (" + xhr.status + ") fetching image '" + pid + "' form iChef.");
       }
@@ -833,7 +834,7 @@ function exportTranscript() {
     document.getElementById("trasncript-export-dummy").click();
   }
 
-  logger.info(USER.name + " exported the transcript (format: " + filename + ")");
+  // logger.info(USER.name + " exported the transcript (format: " + filename + ")");
 
 
 }
@@ -902,7 +903,7 @@ function updateAudioFile(blob) {
     } else {
       setClass(null);
       uploadMedia("audio", audioFile);
-      if (!blob) logger.info(USER.name + " uploaded a local audio file: " + filename);
+      // if (!blob) logger.info(USER.name + " uploaded a local audio file: " + filename);
     }
 
     d3.selectAll("#minimap, #submit").classed("hidden", !!err);
@@ -980,9 +981,9 @@ function txPoll(url, req) {
         if (req.start && req.end) {
           var startDate = new Date(req.start*1000),
               endDate = new Date(req.end*1000);
-          logger.info(USER.name + " imported " + data.type + " from " + vpid + " (" + pad(startDate.getHours()) + ":" + pad(startDate.getMinutes()) + ":" + pad(startDate.getSeconds()) + " - " + pad(endDate.getHours()) + ":" + pad(endDate.getMinutes()) + ":" + pad(endDate.getSeconds()) + ")" + processDuration);
+          // logger.info(USER.name + " imported " + data.type + " from " + vpid + " (" + pad(startDate.getHours()) + ":" + pad(startDate.getMinutes()) + ":" + pad(startDate.getSeconds()) + " - " + pad(endDate.getHours()) + ":" + pad(endDate.getMinutes()) + ":" + pad(endDate.getSeconds()) + ")" + processDuration);
         } else {
-          logger.info(USER.name + " imported " + data.type + " from " + vpid + processDuration);
+          // logger.info(USER.name + " imported " + data.type + " from " + vpid + processDuration);
         }
         if (data.type==="audio") {
           loadAudioFromURL(data.src);
@@ -1043,7 +1044,7 @@ function vcsAudio(url, item) {
   loadAudioFromURL("/vcs/media/" + id);
 
   item = item || d3.select("#input-vcs").property("value");
-  logger.info(USER.name + " imported VCS Item #" + item);
+  // logger.info(USER.name + " imported VCS Item #" + item);
 
 }
 
@@ -1111,7 +1112,7 @@ function setBackground() {
     $("#input-background")[0].files = $("#input-audio")[0].files;
     setClass(null);
     var filename = jQuery("#input-audio").val().split("\\").pop();
-    logger.info(USER.name + " used their audio source file (" + filename + ") as the background video");
+    // logger.info(USER.name + " used their audio source file (" + filename + ") as the background video");
   } else if (type=="tx") {
     var src = $("#videoload a").attr("data-src");
     txPoll(src, {processStart: performance.now()});
@@ -1164,7 +1165,7 @@ function updateImage(event, type, blob) {
       source.type = imgFile[type].type;
       source.src = window.URL.createObjectURL( imgFile[type] );
       vid.appendChild(source);
-      if (!blob) logger.info(USER.name + " uploaded a video " + type + " (" + filename + ")");
+      // if (!blob) logger.info(USER.name + " uploaded a video " + type + " (" + filename + ")");
 
     } else if (type=="background" && imgFile[type].type.startsWith("image") || imgFile[type].type.endsWith("png")) {
 
@@ -1178,7 +1179,7 @@ function updateImage(event, type, blob) {
       preview.img(type,imgImage);
       imgImage.onload = function() {
         preview.imgInfo(type,{type: imgFile[type].type, height: this.height, width: this.width});
-        if (!blob) logger.info(USER.name + " uploaded an image " + type + " (" + filename + ")");
+        //if (!blob) logger.info(USER.name + " uploaded an image " + type + " (" + filename + ")");
       }
 
     } else {
@@ -1390,7 +1391,7 @@ function setClass(cl, msg, log) {
       var err = new Error();
       console.log(err.stack);
     // Log
-    logger.warn(msg, err, USER);
+    //logger.warn(msg, err, USER);
   }
   jQuery('html,body').scrollTop(0);
 }
