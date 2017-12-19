@@ -13,7 +13,7 @@ var themesRaw,
     media={},
     blobs={},
     vcsTranscriptTimeout,
-    audioSource = "vcs";
+    audioSource = "upload";
 
 // Load user details
 global.USER = {"name":"Unknown","email":null};

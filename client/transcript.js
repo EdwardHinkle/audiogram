@@ -279,6 +279,7 @@ function clear() {
   return currentTranscript;
 }
 
+/*
 function poll(job) {
 
   kaldiPoll = setTimeout(function(){
@@ -322,6 +323,18 @@ function generate(blob) {
     }
   });
 
+}
+*/
+
+function generate(blob) {
+  clear();
+  jQuery.getJSON( "bbc-format.json", function( data ){
+    console.log("Poll Got: ", data);
+    setTimeout(function() {
+      load(data);
+      jQuery("#transcript").removeClass("loading");
+    }, 10000);
+  });
 }
 
 module.exports = {

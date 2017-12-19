@@ -9,7 +9,6 @@ module.exports = function(t) {
       wrapText,
       foregroundImage,
       backgroundImage,
-      bbcDog,
       theme;
 
   renderer.foregroundImage = function(_) {
@@ -20,11 +19,6 @@ module.exports = function(t) {
   renderer.backgroundImage = function(_) {
     if (!arguments.length) return backgroundImage;
     backgroundImage = _;
-    return this;
-  };
-  renderer.bbcDog = function(_) {
-    if (!arguments.length) return bbcDog;
-    bbcDog = _;
     return this;
   };
 
@@ -162,14 +156,6 @@ module.exports = function(t) {
       // });
 
     }
-
-    // BBC WATERMARK
-    var A, h, w, o;
-    A = 0.0075 * (theme.width*theme.height);
-    h = Math.sqrt(A/3.5);
-    w = h*3.5;
-    o = h/1.5;
-    context.drawImage(bbcDog, o, o, w, h);
 
     return this;
 
