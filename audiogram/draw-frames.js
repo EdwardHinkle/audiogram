@@ -11,7 +11,7 @@ function drawFrames(renderer, options, cb) {
       theme = renderer.theme();
 
   for (var i = 0; i < 10; i++) {
-    canvases.push(new Canvas(options.width, options.height));
+    canvases.push(Canvas.createCanvas(options.width, options.height));
   }
 
   if (theme.subtitles.enabled && options.transcript) {
@@ -80,9 +80,8 @@ function drawFrames(renderer, options, cb) {
         fps: options.fps,
         frame: frameNumber
       });
-
       var out = fs.createWriteStream(path.join(options.frameDir, zeropad(frameNumber + 1, 6) + ".jpg"));
-      var stream = canvas.createJPEGStream({
+      var stream = canvas.jpegStream({
         bufsize: 2048,
         quality: 80
       });
