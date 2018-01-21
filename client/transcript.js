@@ -292,13 +292,12 @@ function clear() {
 // FIXME: i don't have a kaldi. do a gentle instead!
 function poll(job) {
 
-  kaldiPoll = setTimeout(function(){
-    jQuery.getJSON( "/kaldi/" + job, function( data ) {
-      if (data.status=="SUCCESS") {
+  gentlePoll = setTimeout(function(){
+    jQuery.getJSON( "/gentle/" + job, function( data ) {
+      if (data.status=="OK") {
         if (!data.error) {
-          var transcript = JSON.parse(data.transcript),
-              segments = JSON.parse(data.segments);
-          load({transcript: transcript, segments: segments, kaldi: transcript.metadata.version});
+          var transcript = JSON.parse(data.transcript);
+          load(transcript);
         }
         jQuery("#transcript").removeClass("loading");
       } else {
@@ -309,16 +308,16 @@ function poll(job) {
 
 }
 
-// FIXME: i don't have a kaldi. do a gentle instead!
-function generate(blob) {
+function generate(blob, transcriptText) {
 
   clear();
   
   var formData = new FormData();
   formData.append("audio",blob);
+  formData.append("transcript",transcriptText);
 
   jQuery.ajax({
-    url: "/kaldi/",
+    url: "/gentle/",
     data: formData,
     cache: false,
     contentType: false,

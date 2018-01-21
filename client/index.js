@@ -469,7 +469,10 @@ function initialize(err, themesWithImages) {
 
   // Export transcript
   d3.selectAll(".transcript-export-btn").on("click", exportTranscript);
+  // Import transcript from file
   d3.selectAll("#input-transcript").on("change", importTranscript);
+  // Generate transcript from text
+  d3.selectAll("#input-transcript-text-submit").on("click", generateTranscript);
 
   // If there's an initial background image (e.g. back button) load it
   jQuery(document).on('change', '#input-background', updateImage);
@@ -685,13 +688,14 @@ function sourceUpdate() {
   } 
 }
 
-function generateTranscript(blob) {
+function generateTranscript() {
 
   var upload = jQuery('#input-audio').get(0);
-  var audioFile = blob || upload.files[0];
+  var audioFile = upload.files[0];
+  var transcriptText = document.querySelector('#input-transcript-text').value;
 
   d3.select("#transcript").classed("loading", true);
-  transcript.generate(audioFile);
+  transcript.generate(audioFile, transcriptText);
 
 }
 

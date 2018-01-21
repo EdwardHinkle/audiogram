@@ -17,7 +17,7 @@ var whitelist = require("./whitelist.js"),
     fonts = require("./fonts.js"),
     whoami = require("./whoami.js"),
     upload = require("./upload.js"),
-    kaldi = require("./kaldi.js"),
+    gentle = require("./gentle.js"),
     vcs = require("./vcs.js"),
     ichef = require("./ichef.js"),
     webcap = require("./webcap.js"),
@@ -109,9 +109,9 @@ app.get("/whoami/", whoami);
 // Check the status of a current video
 app.get("/status/:id/", status);
 
-// Handle kaldi transcripts
-app.post("/kaldi/", [multer(fileOptions).fields([{ name: 'audio', maxCount: 1 }]), kaldi.post]);
-app.get("/kaldi/:job/", kaldi.get);
+// Handle gentle transcripts
+app.post("/gentle/", [multer(fileOptions).fields([{ name: 'audio', maxCount: 1 }]), gentle.post]);
+app.get("/gentle/:job/", gentle.get);
 
 // ichef
 app.get("/ichef/:pid/", ichef.pipe);
