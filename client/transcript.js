@@ -247,6 +247,17 @@ function load(json) {
     currentTranscript = Transcript.fromComma(json);
   } else if (json.hasOwnProperty("kaldi")) {
     currentTranscript = Transcript.fromKaldi(json.transcript, json.segments);
+  } else if (json.hasOwnProperty("transcript") && json.hasOwnProperty("words")) {
+    // maybe output from gentle?
+    currentTranscript = Transcript.fromJSON(
+      {
+        speakers: [{ name: "Host" }],
+        segments: [{
+            speaker: 0,
+            words: json.words.filter((w) => w.start != null).map((w) => { return { text: w.word, start: w.start, end: w.end }})
+        }]
+      }
+    );
   } else {
     currentTranscript = Transcript.fromJSON(json);
   }
@@ -278,7 +289,7 @@ function clear() {
   return currentTranscript;
 }
 
-/*
+// FIXME: i don't have a kaldi. do a gentle instead!
 function poll(job) {
 
   kaldiPoll = setTimeout(function(){
@@ -298,6 +309,7 @@ function poll(job) {
 
 }
 
+// FIXME: i don't have a kaldi. do a gentle instead!
 function generate(blob) {
 
   clear();
@@ -322,18 +334,6 @@ function generate(blob) {
     }
   });
 
-}
-*/
-
-function generate(blob) {
-  clear();
-  jQuery.getJSON( "bbc-format.json", function( data ){
-    console.log("Poll Got: ", data);
-    setTimeout(function() {
-      load(data);
-      jQuery("#transcript").removeClass("loading");
-    }, 10000);
-  });
 }
 
 module.exports = {

@@ -1,0 +1,1194 @@
+{
+  "speakers": [
+    {
+      "name": "Host"
+    }
+  ],
+  "segments": [
+    {
+      "speaker": 0,
+      "words": [
+        {
+          "text": "While",
+          "start": 2.21,
+          "end": 2.62
+        },
+        {
+          "text": "at",
+          "start": 2.62,
+          "end": 2.7800000000000002
+        },
+        {
+          "text": "IndieWebCamp",
+          "start": 2.78,
+          "end": 3.59
+        },
+        {
+          "text": "Austin",
+          "start": 3.6,
+          "end": 4.140000000000001
+        },
+        {
+          "text": "I",
+          "start": 4.25,
+          "end": 4.48
+        },
+        {
+          "text": "sat",
+          "start": 4.5,
+          "end": 4.74
+        },
+        {
+          "text": "down",
+          "start": 4.74,
+          "end": 4.970000000000001
+        },
+        {
+          "text": "with",
+          "start": 4.97,
+          "end": 5.109999999999999
+        },
+        {
+          "text": "some",
+          "start": 5.11,
+          "end": 5.28
+        },
+        {
+          "text": "of",
+          "start": 5.28,
+          "end": 5.32
+        },
+        {
+          "text": "the",
+          "start": 5.34,
+          "end": 5.47
+        },
+        {
+          "text": "participants",
+          "start": 5.51,
+          "end": 6.1
+        },
+        {
+          "text": "to",
+          "start": 6.1,
+          "end": 6.2299999999999995
+        },
+        {
+          "text": "ask",
+          "start": 6.23,
+          "end": 6.73
+        },
+        {
+          "text": "Why",
+          "start": 6.82,
+          "end": 7
+        },
+        {
+          "text": "did",
+          "start": 7,
+          "end": 7.18
+        },
+        {
+          "text": "you",
+          "start": 7.18,
+          "end": 7.33
+        },
+        {
+          "text": "get",
+          "start": 7.34,
+          "end": 7.49
+        },
+        {
+          "text": "involved",
+          "start": 7.49,
+          "end": 7.96
+        },
+        {
+          "text": "with",
+          "start": 7.96,
+          "end": 8.03
+        },
+        {
+          "text": "the",
+          "start": 8.04,
+          "end": 8.26
+        },
+        {
+          "text": "IndieWeb",
+          "start": 8.26,
+          "end": 8.77
+        },
+        {
+          "text": "My",
+          "start": 9.09,
+          "end": 9.27
+        },
+        {
+          "text": "name",
+          "start": 9.27,
+          "end": 9.45
+        },
+        {
+          "text": "is",
+          "start": 9.45,
+          "end": 9.67
+        },
+        {
+          "text": "Aaron",
+          "start": 9.7,
+          "end": 10.02
+        },
+        {
+          "text": "Parecki",
+          "start": 10.02,
+          "end": 10.53
+        },
+        {
+          "text": "my",
+          "start": 10.53,
+          "end": 10.69
+        },
+        {
+          "text": "website",
+          "start": 10.69,
+          "end": 11.059999999999999
+        },
+        {
+          "text": "is",
+          "start": 11.09,
+          "end": 11.28
+        },
+        {
+          "text": "aaronpk",
+          "start": 11.639999,
+          "end": 12.159999
+        },
+        {
+          "text": "com",
+          "start": 12.16,
+          "end": 12.540000000000001
+        },
+        {
+          "text": "I've",
+          "start": 12.969999,
+          "end": 13.189999
+        },
+        {
+          "text": "always",
+          "start": 13.19,
+          "end": 13.459999999999999
+        },
+        {
+          "text": "been",
+          "start": 13.46,
+          "end": 13.58
+        },
+        {
+          "text": "interested",
+          "start": 13.58,
+          "end": 13.97
+        },
+        {
+          "text": "in",
+          "start": 13.969999,
+          "end": 14.089998999999999
+        },
+        {
+          "text": "the",
+          "start": 14.09,
+          "end": 14.49
+        },
+        {
+          "text": "idea",
+          "start": 14.759999,
+          "end": 15.099999
+        },
+        {
+          "text": "of",
+          "start": 15.099999,
+          "end": 15.209999
+        },
+        {
+          "text": "having",
+          "start": 15.21,
+          "end": 15.49
+        },
+        {
+          "text": "a",
+          "start": 15.49,
+          "end": 15.53
+        },
+        {
+          "text": "website",
+          "start": 15.53,
+          "end": 15.99
+        },
+        {
+          "text": "I've",
+          "start": 16.039999,
+          "end": 16.279999
+        },
+        {
+          "text": "had",
+          "start": 16.279999,
+          "end": 16.449999000000002
+        },
+        {
+          "text": "a",
+          "start": 16.449999,
+          "end": 16.499999
+        },
+        {
+          "text": "website",
+          "start": 16.5,
+          "end": 16.88
+        },
+        {
+          "text": "since",
+          "start": 16.879999,
+          "end": 17.099999
+        },
+        {
+          "text": "1999",
+          "start": 18.2,
+          "end": 18.68
+        },
+        {
+          "text": "and",
+          "start": 18.84,
+          "end": 19.37
+        },
+        {
+          "text": "used",
+          "start": 19.48,
+          "end": 19.78
+        },
+        {
+          "text": "it",
+          "start": 19.78,
+          "end": 19.91
+        },
+        {
+          "text": "to",
+          "start": 19.92,
+          "end": 20.39
+        },
+        {
+          "text": "collect",
+          "start": 20.54,
+          "end": 21.22
+        },
+        {
+          "text": "things",
+          "start": 21.48,
+          "end": 21.86
+        },
+        {
+          "text": "that",
+          "start": 21.87,
+          "end": 21.970000000000002
+        },
+        {
+          "text": "I've",
+          "start": 21.97,
+          "end": 22.16
+        },
+        {
+          "text": "done",
+          "start": 22.16,
+          "end": 22.61
+        },
+        {
+          "text": "But",
+          "start": 22.7,
+          "end": 22.96
+        },
+        {
+          "text": "as",
+          "start": 22.990000000000002,
+          "end": 23.3
+        },
+        {
+          "text": "blogging",
+          "start": 23.31,
+          "end": 23.83
+        },
+        {
+          "text": "started",
+          "start": 23.84,
+          "end": 24.15
+        },
+        {
+          "text": "happening",
+          "start": 24.15,
+          "end": 24.59
+        },
+        {
+          "text": "I",
+          "start": 24.59,
+          "end": 24.84
+        },
+        {
+          "text": "was",
+          "start": 25.16,
+          "end": 25.34
+        },
+        {
+          "text": "posting",
+          "start": 25.34,
+          "end": 25.669999999999998
+        },
+        {
+          "text": "elsewhere",
+          "start": 25.67,
+          "end": 26.07
+        },
+        {
+          "text": "and",
+          "start": 26.07,
+          "end": 26.22
+        },
+        {
+          "text": "then",
+          "start": 26.22,
+          "end": 26.41
+        },
+        {
+          "text": "I",
+          "start": 26.679999000000002,
+          "end": 26.819999000000003
+        },
+        {
+          "text": "wanted",
+          "start": 26.939999999999998,
+          "end": 27.269999999999996
+        },
+        {
+          "text": "to",
+          "start": 27.27,
+          "end": 27.43
+        },
+        {
+          "text": "roll",
+          "start": 27.45,
+          "end": 27.669999999999998
+        },
+        {
+          "text": "that",
+          "start": 27.67,
+          "end": 27.860000000000003
+        },
+        {
+          "text": "all",
+          "start": 27.86,
+          "end": 28.02
+        },
+        {
+          "text": "into",
+          "start": 28.02,
+          "end": 28.27
+        },
+        {
+          "text": "my",
+          "start": 28.27,
+          "end": 28.45
+        },
+        {
+          "text": "own",
+          "start": 28.45,
+          "end": 28.7
+        },
+        {
+          "text": "site",
+          "start": 28.719999,
+          "end": 29.009999
+        },
+        {
+          "text": "So",
+          "start": 29.11,
+          "end": 29.41
+        },
+        {
+          "text": "now",
+          "start": 29.41,
+          "end": 29.63
+        },
+        {
+          "text": "I",
+          "start": 29.630000000000003,
+          "end": 29.71
+        },
+        {
+          "text": "have",
+          "start": 29.71,
+          "end": 30.04
+        },
+        {
+          "text": "everything",
+          "start": 30.630000000000003,
+          "end": 30.94
+        },
+        {
+          "text": "in",
+          "start": 30.939999999999998,
+          "end": 31.029999999999998
+        },
+        {
+          "text": "one",
+          "start": 31.03,
+          "end": 31.19
+        },
+        {
+          "text": "place",
+          "start": 31.189999999999998,
+          "end": 31.499999999999996
+        },
+        {
+          "text": "For",
+          "start": 31.7,
+          "end": 31.96
+        },
+        {
+          "text": "a",
+          "start": 31.96,
+          "end": 32.03
+        },
+        {
+          "text": "lot",
+          "start": 32.03,
+          "end": 32.160000000000004
+        },
+        {
+          "text": "of",
+          "start": 32.16,
+          "end": 32.22
+        },
+        {
+          "text": "folks",
+          "start": 32.219999,
+          "end": 32.429999
+        },
+        {
+          "text": "in",
+          "start": 32.429999,
+          "end": 32.499999
+        },
+        {
+          "text": "the",
+          "start": 32.5,
+          "end": 32.6
+        },
+        {
+          "text": "community",
+          "start": 32.599999,
+          "end": 32.969998999999994
+        },
+        {
+          "text": "you're",
+          "start": 32.969999,
+          "end": 33.289999
+        },
+        {
+          "text": "kind",
+          "start": 33.32,
+          "end": 33.54
+        },
+        {
+          "text": "of",
+          "start": 33.54,
+          "end": 33.75
+        },
+        {
+          "text": "an",
+          "start": 33.82,
+          "end": 34
+        },
+        {
+          "text": "inspiration",
+          "start": 34,
+          "end": 34.78
+        },
+        {
+          "text": "You",
+          "start": 34.789999,
+          "end": 35.289999
+        },
+        {
+          "text": "tend",
+          "start": 35.35,
+          "end": 35.54
+        },
+        {
+          "text": "to",
+          "start": 35.539999,
+          "end": 35.689999
+        },
+        {
+          "text": "have",
+          "start": 35.690000999999995,
+          "end": 35.81000099999999
+        },
+        {
+          "text": "tried",
+          "start": 35.83,
+          "end": 36.449999999999996
+        },
+        {
+          "text": "everything",
+          "start": 36.690000999999995,
+          "end": 37.330000999999996
+        },
+        {
+          "text": "at",
+          "start": 37.45,
+          "end": 37.580000000000005
+        },
+        {
+          "text": "the",
+          "start": 37.58,
+          "end": 37.66
+        },
+        {
+          "text": "very",
+          "start": 37.66,
+          "end": 37.9
+        },
+        {
+          "text": "least",
+          "start": 37.9,
+          "end": 38.41
+        },
+        {
+          "text": "Could",
+          "start": 38.91,
+          "end": 39.05
+        },
+        {
+          "text": "you",
+          "start": 39.05,
+          "end": 39.12
+        },
+        {
+          "text": "tell",
+          "start": 39.12,
+          "end": 39.23
+        },
+        {
+          "text": "us",
+          "start": 39.23,
+          "end": 39.36
+        },
+        {
+          "text": "what",
+          "start": 39.36,
+          "end": 39.48
+        },
+        {
+          "text": "is",
+          "start": 39.48,
+          "end": 39.589999999999996
+        },
+        {
+          "text": "the",
+          "start": 39.59,
+          "end": 39.86000000000001
+        },
+        {
+          "text": "most",
+          "start": 39.87,
+          "end": 40.11
+        },
+        {
+          "text": "recent",
+          "start": 40.11,
+          "end": 40.35
+        },
+        {
+          "text": "thing",
+          "start": 40.35,
+          "end": 40.59
+        },
+        {
+          "text": "that",
+          "start": 40.59,
+          "end": 40.74
+        },
+        {
+          "text": "you've",
+          "start": 40.74,
+          "end": 41.02
+        },
+        {
+          "text": "done",
+          "start": 41.019999999999996,
+          "end": 41.16
+        },
+        {
+          "text": "to",
+          "start": 41.16,
+          "end": 41.25
+        },
+        {
+          "text": "your",
+          "start": 41.25,
+          "end": 41.38
+        },
+        {
+          "text": "site",
+          "start": 41.38,
+          "end": 41.650000000000006
+        },
+        {
+          "text": "The",
+          "start": 41.66,
+          "end": 41.68
+        },
+        {
+          "text": "most",
+          "start": 41.89,
+          "end": 42.18
+        },
+        {
+          "text": "recent",
+          "start": 42.18,
+          "end": 42.35
+        },
+        {
+          "text": "thing",
+          "start": 42.35,
+          "end": 42.51
+        },
+        {
+          "text": "I've",
+          "start": 42.51,
+          "end": 42.66
+        },
+        {
+          "text": "done",
+          "start": 42.66,
+          "end": 42.79
+        },
+        {
+          "text": "to",
+          "start": 42.79,
+          "end": 42.89
+        },
+        {
+          "text": "my",
+          "start": 42.89,
+          "end": 43.02
+        },
+        {
+          "text": "site",
+          "start": 43.019999999999996,
+          "end": 43.26
+        },
+        {
+          "text": "was",
+          "start": 43.26,
+          "end": 43.559999999999995
+        },
+        {
+          "text": "today",
+          "start": 43.75,
+          "end": 44.18
+        },
+        {
+          "text": "at",
+          "start": 44.269999999999996,
+          "end": 44.589999999999996
+        },
+        {
+          "text": "IndieWebCamp",
+          "start": 44.63,
+          "end": 45.220000000000006
+        },
+        {
+          "text": "Austin",
+          "start": 45.230000000000004,
+          "end": 45.67
+        },
+        {
+          "text": "That",
+          "start": 46.53,
+          "end": 46.7
+        },
+        {
+          "text": "was",
+          "start": 46.7,
+          "end": 46.84
+        },
+        {
+          "text": "some",
+          "start": 46.84,
+          "end": 47.17
+        },
+        {
+          "text": "fun",
+          "start": 47.230000000000004,
+          "end": 47.660000000000004
+        },
+        {
+          "text": "tweaks",
+          "start": 47.67,
+          "end": 47.93
+        },
+        {
+          "text": "to",
+          "start": 47.96,
+          "end": 48.06
+        },
+        {
+          "text": "my",
+          "start": 48.059999,
+          "end": 48.239999
+        },
+        {
+          "text": "Payment",
+          "start": 48.24,
+          "end": 48.550000000000004
+        },
+        {
+          "text": "page",
+          "start": 48.55,
+          "end": 48.849999999999994
+        },
+        {
+          "text": "which",
+          "start": 48.849999,
+          "end": 48.989999
+        },
+        {
+          "text": "I",
+          "start": 48.99,
+          "end": 49.07
+        },
+        {
+          "text": "thought",
+          "start": 49.07,
+          "end": 49.28
+        },
+        {
+          "text": "were",
+          "start": 49.28,
+          "end": 49.42
+        },
+        {
+          "text": "going",
+          "start": 49.42,
+          "end": 49.510000000000005
+        },
+        {
+          "text": "to",
+          "start": 49.509999,
+          "end": 49.559999
+        },
+        {
+          "text": "be",
+          "start": 49.559999,
+          "end": 49.679998999999995
+        },
+        {
+          "text": "really",
+          "start": 49.679999,
+          "end": 49.879999000000005
+        },
+        {
+          "text": "small",
+          "start": 49.88,
+          "end": 50.31
+        },
+        {
+          "text": "and",
+          "start": 50.309999,
+          "end": 50.659999
+        },
+        {
+          "text": "turned",
+          "start": 50.66,
+          "end": 50.849999999999994
+        },
+        {
+          "text": "out",
+          "start": 50.849999,
+          "end": 50.999998999999995
+        },
+        {
+          "text": "to",
+          "start": 51,
+          "end": 51.03
+        },
+        {
+          "text": "be",
+          "start": 51.049999,
+          "end": 51.229999
+        },
+        {
+          "text": "a",
+          "start": 51.230000000000004,
+          "end": 51.290000000000006
+        },
+        {
+          "text": "lot",
+          "start": 51.29,
+          "end": 51.55
+        },
+        {
+          "text": "more",
+          "start": 51.549999,
+          "end": 51.769999
+        },
+        {
+          "text": "work",
+          "start": 51.769999999999996,
+          "end": 52.06999999999999
+        },
+        {
+          "text": "As",
+          "start": 52.139999,
+          "end": 52.349999000000004
+        },
+        {
+          "text": "usually",
+          "start": 52.35,
+          "end": 52.65
+        },
+        {
+          "text": "happens",
+          "start": 52.65,
+          "end": 53.05
+        },
+        {
+          "text": "with",
+          "start": 53.049999,
+          "end": 53.249999
+        },
+        {
+          "text": "hack",
+          "start": 53.289999,
+          "end": 53.489999000000005
+        },
+        {
+          "text": "day",
+          "start": 53.489999999999995,
+          "end": 53.60999999999999
+        },
+        {
+          "text": "projects",
+          "start": 53.609999,
+          "end": 54.159999
+        },
+        {
+          "text": "I",
+          "start": 54.760000000000005,
+          "end": 54.96000000000001
+        },
+        {
+          "text": "added",
+          "start": 54.96,
+          "end": 55.22
+        },
+        {
+          "text": "support",
+          "start": 55.22,
+          "end": 55.589999999999996
+        },
+        {
+          "text": "for",
+          "start": 55.6,
+          "end": 55.940000000000005
+        },
+        {
+          "text": "the",
+          "start": 55.94,
+          "end": 56.19
+        },
+        {
+          "text": "new",
+          "start": 56.22,
+          "end": 56.41
+        },
+        {
+          "text": "payment",
+          "start": 56.42,
+          "end": 56.63
+        },
+        {
+          "text": "request",
+          "start": 56.64,
+          "end": 56.99
+        },
+        {
+          "text": "API",
+          "start": 56.99,
+          "end": 57.47
+        },
+        {
+          "text": "which",
+          "start": 57.63,
+          "end": 57.88
+        },
+        {
+          "text": "is",
+          "start": 57.88,
+          "end": 57.95
+        },
+        {
+          "text": "supported",
+          "start": 57.96,
+          "end": 58.4
+        },
+        {
+          "text": "by",
+          "start": 58.4,
+          "end": 58.87
+        },
+        {
+          "text": "actually",
+          "start": 59.12,
+          "end": 59.419999999999995
+        },
+        {
+          "text": "most",
+          "start": 59.42,
+          "end": 59.65
+        },
+        {
+          "text": "of",
+          "start": 59.65,
+          "end": 59.78
+        },
+        {
+          "text": "the",
+          "start": 59.78,
+          "end": 59.870000000000005
+        },
+        {
+          "text": "browsers",
+          "start": 59.87,
+          "end": 60.23
+        },
+        {
+          "text": "now",
+          "start": 60.269999999999996,
+          "end": 60.54
+        },
+        {
+          "text": "And",
+          "start": 60.79,
+          "end": 61.25
+        },
+        {
+          "text": "it's",
+          "start": 61.26,
+          "end": 61.41
+        },
+        {
+          "text": "pretty",
+          "start": 61.41,
+          "end": 61.589999999999996
+        },
+        {
+          "text": "neat",
+          "start": 61.59,
+          "end": 61.78
+        },
+        {
+          "text": "It",
+          "start": 61.8,
+          "end": 62.01
+        },
+        {
+          "text": "works",
+          "start": 62.139999,
+          "end": 62.409999000000006
+        },
+        {
+          "text": "pretty",
+          "start": 62.429999,
+          "end": 62.609999
+        },
+        {
+          "text": "well",
+          "start": 62.61,
+          "end": 62.86
+        },
+        {
+          "text": "It",
+          "start": 63.17,
+          "end": 63.29
+        },
+        {
+          "text": "also",
+          "start": 63.29,
+          "end": 63.48
+        },
+        {
+          "text": "includes",
+          "start": 63.480000000000004,
+          "end": 63.78
+        },
+        {
+          "text": "Apple",
+          "start": 63.78,
+          "end": 63.99
+        },
+        {
+          "text": "Pay",
+          "start": 63.99,
+          "end": 64.13
+        },
+        {
+          "text": "support",
+          "start": 64.13,
+          "end": 64.49
+        },
+        {
+          "text": "so",
+          "start": 64.62,
+          "end": 64.96000000000001
+        },
+        {
+          "text": "you",
+          "start": 65.429999,
+          "end": 65.55999899999999
+        },
+        {
+          "text": "can",
+          "start": 65.559999,
+          "end": 65.699999
+        },
+        {
+          "text": "actually",
+          "start": 65.7,
+          "end": 66.06
+        },
+        {
+          "text": "pay",
+          "start": 66.059999,
+          "end": 66.23999900000001
+        },
+        {
+          "text": "me",
+          "start": 66.24,
+          "end": 66.55999999999999
+        },
+        {
+          "text": "via",
+          "start": 66.599999,
+          "end": 66.799999
+        },
+        {
+          "text": "Apple",
+          "start": 66.799999,
+          "end": 67.009999
+        },
+        {
+          "text": "Pay",
+          "start": 67.009999,
+          "end": 67.299999
+        },
+        {
+          "text": "It",
+          "start": 67.48,
+          "end": 67.58
+        },
+        {
+          "text": "was",
+          "start": 67.58,
+          "end": 67.66
+        },
+        {
+          "text": "pretty",
+          "start": 67.66,
+          "end": 67.8
+        },
+        {
+          "text": "fun",
+          "start": 67.799999,
+          "end": 68.029999
+        },
+        {
+          "text": "I",
+          "start": 68.13,
+          "end": 68.19999999999999
+        },
+        {
+          "text": "learned",
+          "start": 68.2,
+          "end": 68.38000000000001
+        },
+        {
+          "text": "a",
+          "start": 68.38,
+          "end": 68.39
+        },
+        {
+          "text": "lot",
+          "start": 68.389999,
+          "end": 68.699999
+        },
+        {
+          "text": "Great",
+          "start": 68.86,
+          "end": 69.11
+        },
+        {
+          "text": "well",
+          "start": 69.11,
+          "end": 69.31
+        },
+        {
+          "text": "thank",
+          "start": 69.33,
+          "end": 69.53
+        },
+        {
+          "text": "you",
+          "start": 69.53,
+          "end": 69.59
+        },
+        {
+          "text": "very",
+          "start": 69.589999,
+          "end": 69.729999
+        },
+        {
+          "text": "much",
+          "start": 69.73,
+          "end": 70.10000000000001
+        },
+        {
+          "text": "See",
+          "start": 70.42,
+          "end": 70.53
+        },
+        {
+          "text": "you",
+          "start": 70.529999,
+          "end": 70.629999
+        },
+        {
+          "text": "next",
+          "start": 70.629999,
+          "end": 70.83999899999999
+        },
+        {
+          "text": "month",
+          "start": 70.84,
+          "end": 71.09
+        },
+        {
+          "text": "Both",
+          "start": 72.41,
+          "end": 72.44
+        },
+        {
+          "text": "laugh",
+          "start": 72.44,
+          "end": 72.47
+        }
+      ]
+    }
+  ]
+}
